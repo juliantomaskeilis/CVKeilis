@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae Keilis Julian Tomas</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="Titulo">Curriculum Vitae Keilis Julian Tomas</h1>
+    <div class="container">
+        <div class="asideLeft">
+            <h2>Formacion Academica</h2>
+            <ul class="Lalista">
+                <li>Abogado, universidad de Buenos Aires, finalizado.</li>
+                <li>Desarrollo Web, Coderhouse, finalizado.</li>
+                <li>Primeros pasos del desarrollo frontend, Argentina Programa 4.0, en curso.</li>
+                <li>JavaSecript, Coderhouse, en curso.</li>
+            </ul>
+
+            <h2>Experiencia Laboral</h2>
+            <ul class="Lalista">
+                <li>Tribunal de Trabajo de Zarate, Poder Judicial de la Provincia de Buenos Aires, SCBA. 2016 a la
+                    fecha.</li>
+            </ul>
+
+            <h2>Informacion Personal</h2>
+            <ul class="Lalista">
+                <li>Fecha de nacimiento, 20/01/1992.</li>
+                <li>Correo electronico, juliantomaskeilis@gmail.com</li>
+                <li>https://www.linkedin.com/in/julian-tomas-keilis-0a9064238/</li>
+                <li>Telefono personal, +54 3487 684775</li>
+            </ul>
+        </div>
+        <div class="asideRight">
+            <img src="Imagenes/FotoKeilisCV.jpg" alt="Foto de Julian Keilis" style="width:250px;height:250px;">
+            <br>
+            <br>
+            <label class="Botonera">Seleccione tematica de su consulta
+                <select class="opcion" name=".opcion">
+                    <option value="" class="Botonera" >Seleccione tematica</option>
+                    <option value="Abogado">Abogagia</option>
+                    <option value="Developer">Desarrollo</option>
+                </select>
+            </label>
+            <div class="resultado">
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="button" id="boton" class="Botonera" >Haga click para activar el modo nocturno</button>
+            <button type="button" id="botonRestaurar" class="Botonera" >Haga click para desactivar el modo nocturno</button>
+        </div>
+        <script src="JS/function.js"></script>
+</body>
+
+</html>

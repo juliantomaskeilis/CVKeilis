@@ -1,0 +1,42 @@
+*{
+    color: rgb(93, 26, 202);  
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "asideLeft asideLeft asideRight asideRight"
+        "asideLeft asideLeft asideRight asideRight"
+        "asideLeft asideLeft asideRight asideRight"
+        "asideLeft asideLeft asideRight asideRight";
+}
+
+.asideLeft {
+    grid-area: asideLeft;
+    text-align: center;
+}
+
+.asideRight {
+    grid-area: asideRight;
+    text-align: center;
+}
+
+
+.Titulo {
+    color: rgb(93, 26, 202);
+    font-size: 60px;
+    text-align: center;
+}
+
+.Lalista {
+    list-style: none;
+}
+
+.Botonera{
+    cursor: pointer ;
+}
